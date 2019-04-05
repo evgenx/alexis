@@ -17,6 +17,16 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+.green {
+  color: #38c695;
+}
+.violet {
+  color: #b27cf5;
+}
+.yellow {
+  color: #feb960;
+}
+
 /* Base elements */
 .container {
   width: 1140px;
@@ -53,22 +63,68 @@ h1, h2, h3, h4, h5, h6, p {
    color: #fc5f45;
 }
 
-/* First block */
+/* Home block */
 .home {
   width: 100%;
-  height: 850px;
+  height: 650px;
   background: url('../img/first_bg.jpg') no-repeat center;
 }
 .home__transparent {
   width: 100%;
-  height: 850px;
   background: rgba(38,39,50,.85);
 }
 .home__inner {
-  height: 850px;
+  height: 650px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .home__text {
-
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  width: 840px;
 }
+.home__button {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  background-color: #fc5f45;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+.home__features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.feature {
+  text-align: center;
+  width: 150px;
+}
+.feature_img {
+  width: 45px;
+  height: 45px;
+}
+.feature__text {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 38px;
+}
+
+/* About block */
