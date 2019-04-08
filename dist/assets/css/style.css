@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Imports */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,500,600,700,800,900");
 /* Settings */
@@ -25,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .yellow {
     color: #feb960;
+}
+
+.red {
+    color: #fc5f45;
 }
 
 .fourblock {
@@ -420,9 +425,6 @@ h1, h2, h3, h4, h5, h6, p {
     height: 288px;
     margin: 10px;
     background-color: #fff;
-    -webkit-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
-    transition: 0.2s linear;
 }
 
 .portfolio__block img {
@@ -433,7 +435,113 @@ h1, h2, h3, h4, h5, h6, p {
 .portfolio__block:hover {
     width: 350px;
     height: 278px;
-    padding: 4px;
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Team block */
+.team__inner {
+    width: 100%;
+    height: 1000px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+
+.team__wrapper {
+    text-align: center;
+}
+
+.team__blocks {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.team__block {
+    width: 263px;
+    height: 350px;
+    background-color: #fff;
+    margin: 0 10px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.block__inner {
+    padding: 5px;
+}
+
+.block__text {
+    height: 72px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block__title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.member_description {
+    width: 1112px;
+    height: 352px;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+}
+
+.member_description::after,
+.member_description::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    left: 90px;
+    top: -24px;
+    width: 70px;
+    height: 70px;
+    z-index: -1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.member_description::before {
+    z-index: 1;
+  /* Накладываем поверх, чтобы скрыть следы тени */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  /* Прячем тень */
 }
