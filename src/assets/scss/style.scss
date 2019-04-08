@@ -257,10 +257,39 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 40px 0;
 }
 
-
-
-
-
-
-
 /* Portfolio block */
+.portfolio__inner {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.portfolio__wrapper {
+  text-align: center;
+}
+.portfolio__blocks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.portfolio__block {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  width: 360px;
+  height: 288px;
+  margin: 10px;
+  background-color: #fff;
+  transition: 0.2s linear;
+}
+.portfolio__block:hover {
+  width: 350px;
+  height: 278px;
+  padding: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
