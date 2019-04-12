@@ -78,6 +78,22 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 600;
   font-size: 14px;
 }
+.lightgreen {
+  width: 176px;
+  height: 46px;
+  color: #38c695;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px #38c695 solid;
+}
+.lightviolet {
+  width: 176px;
+  height: 46px;
+  color: #b27cf5;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px #b27cf5 solid;
+}
 .text__title {
   font-family: 'Libre Baskerville', sans-serif;
   font-weight: 700;
@@ -486,12 +502,87 @@ h1, h2, h3, h4, h5, h6, p {
   margin:0 -75% 0 75%;
 }
 
-
-
-
-
-
-
+/* Price block */
+.price {
+  background-color: #f7f7f7;
+}
+.price_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 145px 0;
+}
+.price_blocks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.price_block {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+.price_content {
+  padding: 30px 70px;
+  text-align: center;
+}
+.price_title {
+  color: #000;
+  font-size: 20px;
+}
+.circle_price {
+  width: 112px;
+  height: 112px;
+  border: 4px #38c695 solid;
+  border-radius: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+.circle_red {
+  border-color: #fc5f45;
+}
+.circle_violet {
+  border-color: #b27cf5;
+}
+.circle_price__inner {
+  width: 104px;
+  height: 104px;
+  border-radius: 104px;
+  background-color: #38c695;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circle_red__inner {
+  background-color: #fc5f45;
+}
+.circle_violet__inner {
+  background-color: #b27cf5;
+}
+.circle_price__title {
+  color: #fff;
+  font-size: 24px;
+}
+.circle_price__text {
+  color: #fff;
+  font-size: 12px;
+}
+.price_list {
+  b {
+    color: #000;
+    font-weight: 500;
+  }
+  font-weight: 200;
+  font-size: 15px;
+  color: #616161;
+  padding-bottom: 20px;
+}
 
 
 /**/
