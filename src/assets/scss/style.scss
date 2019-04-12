@@ -392,3 +392,42 @@ h1, h2, h3, h4, h5, h6, p {
   }
   margin: 10px;
 }
+
+/* Stats block */
+.stats {
+  background: url('../img/stats_bg.jpg') center no-repeat;
+}
+.stats_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 75px;
+}
+.stats__block {
+  text-align: center;
+}
+.stat_img {
+  margin-bottom: 30px;
+}
+.numeric {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.caption {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

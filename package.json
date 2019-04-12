@@ -5,8 +5,8 @@
   "author": "Evgeny Plotnikov",
   "license": "SPDX(MIT)",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/evgenx/alexis.git"
+    "type": "git",
+    "url": "git://github.com/evgenx/alexis.git"
   },
   "devDependencies": {
     "browser-sync": "^2.24.5",
