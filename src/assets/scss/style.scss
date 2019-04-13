@@ -1,6 +1,6 @@
 
 /* Imports */
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Poppins:200,300,400,500,600,700,800,900|Sacramento');
 
 /* Settings */
 body {
@@ -104,6 +104,10 @@ h1, h2, h3, h4, h5, h6, p {
 .text__p {
   margin-bottom: 20px;
   font-size: 14px;
+  font-weight: 200;
+}
+.white {
+  color: #fff;
 }
 /* Header */
 .header{
@@ -584,5 +588,60 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 20px;
 }
 
+/* Testimonials block */
+.testimonials {
+  background-color: #3f4049;
+  padding: 140px 0;
+}
+.testimonials_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonials__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 85%;
+  margin-top: 80px;
+}
 
-/**/
+.testimonials__text {
+  background-color: #fff;
+
+}
+.testimonials__text_wrapper {
+  padding: 40px;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.client_caption {
+  font-family: 'Sacramento', cursive;
+  font-size: 32px;
+  margin-top: 30px;
+  color: #000;
+}
+.client_name {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
