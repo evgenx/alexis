@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 32px;
   color: #000;
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 .text__p {
   margin-bottom: 20px;
@@ -630,7 +631,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .testimonials__switcher {
   width: 85%;
-  margin-top: -30px;
+  margin-top: -20px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -641,14 +642,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .switcher__item {
   margin-left: 10px;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #fff;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .active_switcher {
-  width: 18px;
-  height: 18px;
+  width: 8px;
+  height: 8px;
   padding: 2px;
   border: 2px solid #fc5f45;
   display: flex;
@@ -656,10 +657,64 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
 }
 .active_button {
-  width: 16px;
-  height: 16px;
+  width: 6px;
+  height: 6px;
   background-color: #fc5f45;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
-/*  */
+/* Why Select Us Block */
+.selectus {
+  padding: 145px 0 100px 0;
+}
+.selectus__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.selectus_table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //flex-direction: row;
+  flex-wrap: wrap;
+}
+.table__item {
+  width: 270px;
+  padding: 20px;
+}
+.item__header {
+  width: 57%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header__title {
+  padding-left: 10px;
+  margin-top: -5px;
+}
+.title_text {
+  font-weight: 400;
+}
+.content__text {
+  font-size: 12px;
+  font-weight: 200;
+}
+.selectus_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.action {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+/* */
