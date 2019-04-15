@@ -607,10 +607,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 85%;
   margin-top: 80px;
 }
-
 .testimonials__text {
   background-color: #fff;
-
 }
 .testimonials__text_wrapper {
   padding: 40px;
@@ -630,18 +628,38 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
   color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.testimonials__switcher {
+  width: 85%;
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.switchers {
+  display: flex;
+  flex-direction: row;
+}
+.switcher__item {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.active_switcher {
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+  border: 2px solid #fc5f45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active_button {
+  width: 16px;
+  height: 16px;
+  background-color: #fc5f45;
+  border-radius: 16px;
+}
 
 /*  */
