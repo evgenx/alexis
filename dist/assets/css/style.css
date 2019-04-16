@@ -1316,3 +1316,74 @@ h1, h2, h3, h4, h5, h6, p {
 .center_post {
     margin: 31px 0;
 }
+
+/* Block Subscribe */
+.subscribe {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.subscribe__title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.subscribe__form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.subscribe_input {
+    width: 278px;
+    height: 44px;
+    border: 2px #efefef solid;
+    background-color: #f7f7f7;
+    border-radius: 46px 0 0 46px;
+    font-size: 16px;
+    padding-left: 22px;
+}
+
+.subscribe_button {
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: #fc5f45;
+    border-radius: 0 50px 50px 0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
