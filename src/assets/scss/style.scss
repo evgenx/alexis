@@ -1346,3 +1346,99 @@ h1, h2, h3, h4, h5, h6, p {
     }
   }
 }
+@media (max-width: 375px) {
+  /* Home block */
+  .home__features {
+    display: none;
+  }
+  .home__button {
+    margin: 40px;
+  }
+  /* About block */
+  .about__image {
+    display: none;
+  }
+  .text_wrapper {
+    width: 90%;
+    margin: 5px;
+  }
+  .about__text {
+    padding: 20px;
+  }
+  /* Stats block */
+  .stats_wrapper {
+    padding: 20px;
+  }
+  /* Work steps block */
+  .steps_item {
+    width: 260px;
+    padding: 20px;
+  }
+  /* Block Blog */
+  .post_wrapper {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .post_img {
+    img {
+      width: 350px;
+    }
+  }
+  .short_posts {
+    margin-left: 0px;
+  }
+  .active_post {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .short_posts {
+    width: 350px;
+  }
+  /* Block Subscribe */
+  .subscribe_input {
+    width: 178px;
+    height: 24px;
+    font-size: 14px;
+  }
+  .subscribe_button {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+  /* Block Get in touch */
+  .touch__form {
+    width: 100%;
+  }
+  .form__inputs {
+    width: 100%;
+  }
+  .touch__form_input {
+    width: 80%;
+  }
+  .touch__form_textarea {
+    width: 80%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .logo_block {
+    width: 33.33%;
+  }
+  .social_footer {
+    img {
+      width: 20px;
+      margin: 5px;
+    }
+  }
+  .notmobile {
+    display: none;
+  }
+  .address_text {
+    font-size: 10px;
+  }
+  .footer_title {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+}
